@@ -1,0 +1,19 @@
+I, [2016-10-19T10:33:36.466000 #12184]  INFO -- default-ubuntu14: -----> Setting up <default-ubuntu14>...
+I, [2016-10-19T10:33:36.468500 #12184]  INFO -- default-ubuntu14: Finished setting up <default-ubuntu14> (0m0.00s).
+I, [2016-10-19T10:33:36.469000 #12184]  INFO -- default-ubuntu14: -----> Verifying <default-ubuntu14>...
+I, [2016-10-19T10:33:36.470500 #12184]  INFO -- default-ubuntu14: Preparing files for transfer
+I, [2016-10-19T10:33:38.124500 #12184]  INFO -- default-ubuntu14: -----> Busser installation detected (busser)
+I, [2016-10-19T10:33:38.124500 #12184]  INFO -- default-ubuntu14: Installing Busser plugins: busser-serverspec
+I, [2016-10-19T10:33:43.368000 #12184]  INFO -- default-ubuntu14: Plugin serverspec already installed
+I, [2016-10-19T10:33:43.624000 #12184]  INFO -- default-ubuntu14: Removing /tmp/verifier/suites/serverspec
+I, [2016-10-19T10:33:43.625000 #12184]  INFO -- default-ubuntu14: Transferring files to <default-ubuntu14>
+I, [2016-10-19T10:33:43.960500 #12184]  INFO -- default-ubuntu14: -----> Running serverspec test suite
+I, [2016-10-19T10:33:44.064000 #12184]  INFO -- default-ubuntu14: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.5.0/lib:/tmp/verifier/gems/gems/rspec-core-3.5.4/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-10-19T10:33:44.424500 #12184]  INFO -- default-ubuntu14: 
+I, [2016-10-19T10:33:44.424500 #12184]  INFO -- default-ubuntu14: web site
+I, [2016-10-19T10:33:44.536500 #12184]  INFO -- default-ubuntu14: [32m  responds on port 80[0m
+I, [2016-10-19T10:33:44.537000 #12184]  INFO -- default-ubuntu14: 
+I, [2016-10-19T10:33:44.537500 #12184]  INFO -- default-ubuntu14: Finished in 0.11741 seconds (files took 0.31935 seconds to load)
+I, [2016-10-19T10:33:44.537500 #12184]  INFO -- default-ubuntu14: [32m1 example, 0 failures[0m
+I, [2016-10-19T10:33:44.537500 #12184]  INFO -- default-ubuntu14: 
+I, [2016-10-19T10:33:44.572500 #12184]  INFO -- default-ubuntu14: Finished verifying <default-ubuntu14> (0m8.10s).

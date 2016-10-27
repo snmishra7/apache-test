@@ -1,0 +1,23 @@
+---
+driver:
+  name: vagrant
+  ssh:
+    insert_key: false
+    private_key_path: 'C:/DevOps/TDD/vagrant/keys/vagrant'
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu14
+    driver:
+      box: ubuntu14
+      box_url: file:///C:/DevOps/Vagrant_Box/precise64.box
+      network:
+      - ["private_network", {ip: "192.168.33.38"}]
+
+suites:
+  - name: default
+    run_list:
+      - recipe[apache-test::default]
+    attributes:
