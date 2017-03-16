@@ -1,4 +1,4 @@
-# apache-test Cookbook Satya
+# apache-test Cookbook Saty
 
 TODO: Enter the cookbook description here.
 
